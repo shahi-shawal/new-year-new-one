@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Epilogue', sans-serif;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+  /* Banner section */
+
+  .banner {
+    width: 1600px;
+    height: 809px;
+    background-image: url(../images/banner/banner2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+
+.banner-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 195px 216px 230px 316px;
+}
+
+.banner-heading{
+     width: 525px;
+     color: var(--dark-01, #151414);
+text-align: right;
+text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+font-size: 65px;
+font-weight: 700;
+
+}
