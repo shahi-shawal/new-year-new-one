@@ -62,3 +62,53 @@ p{
     font-weight: 400;
     cursor: pointer;
 }
+
+/* End Banner section */
+ 
+/* Start about section */
+
+.about-section{
+
+}
+.about-image {
+    padding: 180px 6px 317px 137px;
+}
+.about-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 163px 136px 168px 129px;
+}
+
+.about-header {
+    width: 413px;
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.about-peragraph{
+    width: 416px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 13px;
+}
+
+.svg-peragraph {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 7px;
+    margin: auto;
+    padding: 8px 74px 1px 6px;
+}
