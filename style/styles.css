@@ -112,3 +112,48 @@ p{
     margin: auto;
     padding: 8px 74px 1px 6px;
 }
+
+ /* End about section */
+
+ /* start My plan section */
+.my-plan-section {
+    margin-top: -193px;
+}
+
+ .my-plan-heading{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+ }
+
+ .plans {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    padding: 0px 86px 10px 133px;
+}
+
+.plan-heading{
+    color:  #151414;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.plans-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 102px;
+}
+
+.plan-activitis{
+    color:  #737272;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
